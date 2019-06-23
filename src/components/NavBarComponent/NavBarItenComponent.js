@@ -7,20 +7,13 @@ const NavBarItenComponent = props =>
             <ul className="navbar-nav mr-auto">
 
                 <li className="nav-item ">
-                    <a className="nav-link" href="/">Baterias <span className="sr-only"></span></a>
+                    <a className="nav-link" href="/">Menu1 <span className="sr-only"></span></a>
                 </li>
 
                 <li className="nav-item ">
-                    <a className="nav-link" href="/">Cidades <span className="sr-only"></span></a>
+                    <a className="nav-link" href="/">Menu2 <span className="sr-only"></span></a>
                 </li>
 
-                <li className="nav-item ">
-                    <a className="nav-link" href="/">Veiculos <span className="sr-only"></span></a>
-                </li>
-
-                <li className="nav-item ">
-                    <a className="nav-link" href="/">Marcas <span className="sr-only"></span></a>
-                </li>
 
             </ul>
             <ul className="navbar-nav ">
