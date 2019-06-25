@@ -17,9 +17,12 @@ export default (state = INITIAL_STATE, action) => {
 
         case ActionMap.clsError:
             return { ...state, error: clsError }
-            
+
         case ActionMap.user_auth.load:
-            return { ...state, load: payload , error:clsError}
+            return { ...state, load: payload, error: clsError }
+
+        case ActionMap.user_auth.RouteNotAuth:
+            return { notAuth: true }
 
         default: return state
     }
